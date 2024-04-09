@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+}
+body{
+  background-color: #ffe5b4;
+}
+p{
+  font-size: 18px;
+}
+/* navBar */
+h1{
+  color: #b90e41;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+h1 a{
+  text-decoration: none;
+  color: #b90e41;
+}
+h1 a:hover{
+  color: #b90e41;
+}
+.navBar{
+  text-align: center;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.navBar ul{
+  background-color: darkviolet;
+}
+.navBar li{
+  background-color: darkviolet;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+}
+.navBar li a{
+  text-decoration: none;
+  background-color: darkviolet;
+  color: white;
+}
+.navBar li a:hover{
+  border-bottom: 2px solid yellow;
+}
+.active{
+  border-bottom: 2px solid yellow;
+}
+.sticky{
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+}
+
+/* Home */
+
+/* Blogs */
+.container{
+  margin-bottom: 20px;
+}
+.card-style{
+    margin: 10px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+.card-img{
+    overflow: hidden;
+}
+.card-img img{
+    transition: all 0.5s ease;
+}
+.card-img:hover img{
+    transform: scale(1.2);
+}
+
+/* Health problems */
+.problem{
+  background-color: white;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 8px;
+}
+.problem:hover{
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+}
+.problem a{
+  color: darkgreen;
+  font-weight: bold;
+  text-decoration: none;
+}
+.problem h3{
+  color:teal;
+}
+
+/* Live Sessions */
+.session{
+  margin: 10px 0;
+  transition: all 0.3s ease;
+}
+.session:hover{
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+}
+.session img{
+  height: 250px;
+  object-fit: cover;
+}
+.heading h2{
+    margin: 0px 9%;
+    padding-bottom: 10px;
+    border-bottom: solid 4px orange;
+}
+
+/* About us */
+.profile img{
+  width: 200px;
+}
+.profile a{
+  text-decoration:none;
+  color: black;
+}
+.profile .icon{
+  width: 20px;
+}
+
+/* Sign Up form */
+input[type=text],input[type=email ], input[type=password]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+button{
+  font-size: large;
+  background-color: blue;
+  color: white;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+}
+button:hover{
+  opacity: 1;
+}
+
